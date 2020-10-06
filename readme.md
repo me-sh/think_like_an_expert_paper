@@ -15,11 +15,14 @@ root
 
 ### Instructions
 
-After downloading, set the variable 'bids_path' in the code to point to the downloaded folder. Run times for a single analysis on a single region of interest (ROI) are <1h on a single CPU core. The notebooks contain the  expected outputs.
+After downloading the data folder from openNeuro, set the variable 'bids_path' in the code to point to the data folder. The notebooks contain the expected outputs. Run times for a single analysis on a single region of interest (ROI) are <1h on a single CPU core.
 
 The code was tested under GNU/Linux (x86_64 architecture) with Jupyter Notebook and BrainIAK (version information below). No special installation is required.
+
 [ Python ](https://github.com/brainiak) v. 3.7.4
+
 [ Jupyter Notebook ](https://jupyter.org/)  v. 6.0.2
+
 [ BrainIAK ](https://github.com/brainiak)  v. 0.9.1
 
 
