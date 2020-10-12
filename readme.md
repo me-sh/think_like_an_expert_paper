@@ -8,14 +8,18 @@ The repository is organized as follows:
 
 ```
 root
-└── notebooks : jupyter notebooks for paper analyses
+└── notebooks : jupyter notebooks
 └── py : python code
 └── masks : anatomical ROI and brain masks
 ```
 
 ### Instructions
 
-After downloading the data folder from openNeuro, set the variable 'bids_path' in the code to point to the data folder. The notebooks contain the expected outputs. Run times for a single analysis on a single region of interest (ROI) are <1h on a single CPU core.
+After downloading the data folder from openNeuro, set the variable 'bids_path' in the code to point to the data folder.
+
+Use notebooks for pre-processing of raw data (requires FSL; dependencies in py folder), behavioral analysis and ROI analysis. Analysis notebooks contain the expected outputs. Run times for a single analysis on a single region of interest (ROI) are <1h on a single CPU core.
+
+Use similarity_searchlight.py for whole-brain analysis (requires BrainIAK searchlight).
 
 The code was tested under GNU/Linux (x86_64 architecture) with Jupyter Notebook and BrainIAK (version information below). No special installation is required.
 
@@ -25,5 +29,5 @@ The code was tested under GNU/Linux (x86_64 architecture) with Jupyter Notebook 
 
 [ BrainIAK ](https://github.com/brainiak)  v. 0.9.1
 
-
+[ FSL ](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/) v. 6.0.1
 
