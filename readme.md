@@ -1,4 +1,4 @@
-# Think like an expert paper
+# Think like an expert paper (Neural alignment predicts learning outcomes, Nature Comms., 2021)
 
 This repository contains code associated with the paper [_"Neural alignment predicts learning outcomes in students taking an introduction to computer science course_"](https://doi.org/10.1038/s41467-021-22202-3) by Meir Meshulam, Liat Hasenfratz, Hanna Hillman, Yun-Fei Liu, Mai Nguyen, Kenneth A. Norman and Uri Hasson. 
 
