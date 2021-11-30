@@ -23,7 +23,7 @@ Use similarity_searchlight.py for whole-brain analysis (requires BrainIAK search
 
 The code was tested under GNU/Linux (x86_64 architecture) with Jupyter Notebook and BrainIAK (version information below). No special installation is required.
 
-[ Python ](https://github.com/brainiak) v. 3.7.4
+[ Python ](https://www.python.org/) v. 3.7.4
 
 [ Jupyter Notebook ](https://jupyter.org/)  v. 6.0.2
 
